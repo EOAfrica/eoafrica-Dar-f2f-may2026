@@ -26,6 +26,7 @@ In a terminal
 4. `conda install ipykernel` Install the ipykernel needed for using in Jupyeter notebooks  
 5. `pip install shxarray` install [shxarray](https://github.com/ITC-Water-Resources/shxarray)
 6. `python -m ipykernel install --user --name myenv --display-name "pywater"` (Install the ipython kernel so you can use it in your notebooks)
+7. Install additional tools using conda or pip `h5netcdf,folium, cartopy, fftw, ..` (fall back to pip when the package does not have a conda version)
     
 ## C Alternative to B: use the prepared Conda environment in the Innovation Lab
 1. `conda activate /home/eoafrica/resources/F2FDar26/pywater` (Activate the environment)
